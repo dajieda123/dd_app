@@ -1,0 +1,27 @@
+{
+    "name": "dd2019",
+    "version": "1.0.0",
+    "description": "ddApp project",
+    "author": "luym",
+    "private": true,
+    "scripts": {
+        "dev": "cross-env PATH_TYPE=local nuxt",
+        "build": "cross-env PATH_TYPE=build nuxt build",
+        "start": "cross-env PATH_TYPE=start nuxt start",
+        "generate": "cross-env PATH_TYPE=generate nuxt generate"
+    },
+    "dependencies": {
+        "@nuxtjs/axios": "^5.3.6",
+        "@nuxtjs/style-resources": "^0.1.1",
+        "cross-env": "^5.2.0",
+        "nuxt": "^2.3.4",
+        "vant": "^2.2.3",
+        "vue-qriously": "^1.1.1"
+    },
+    "devDependencies": {
+        "babel-plugin-import": "^1.11.0",
+        "nodemon": "^1.18.9",
+        "less": "^3.8.1",
+        "less-loader": "^4.1.0"
+    }
+}
